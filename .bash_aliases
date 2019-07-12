@@ -1,13 +1,15 @@
 
 alias ls='ls -a --color=auto'
 
-alias ll="ls -al"
+alias ll="ls -al --color=auto"
 
 alias ..="cd .."
 
 alias ...="cd ../../"
 
 alias ....="cd ../../../"
+
+alias .....="cd ../../../../"
 
 alias grep="grep --color=auto"
 
@@ -28,3 +30,13 @@ alias hdmiright="xrandr --output DP-2 --auto --right-of eDP-1"
 
 alias wallpaper="feh --bg-fill --randomize ~/pictures/*"
 
+alias config="/usr/bin/git --git-dir=/home/scarlet/.cfg --work-tree=/home/scarlet"
+
+alias gs="git status"
+
+if [ $UID -ne 0 ]; then
+    alias reboot="sudo reboot"
+    alias pacman="sudo pacman"
+fi
+
+alias diff="colordiff"

@@ -24,4 +24,3 @@ PS1='[\u@\h \W]\$ '
 if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
     exec startx
 fi
-alias config='/usr/bin/git --git-dir=/home/scarlet/.cfg/ --work-tree=/home/scarlet'
