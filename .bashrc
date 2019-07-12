@@ -14,7 +14,7 @@
 #export LC_ALL=en.US_UTF-8
 #aliases
 if [ -f ~/.bash_aliases ]; then
-    .~/.bash_aliases
+    . ~/.bash_aliases
 fi
 
 
