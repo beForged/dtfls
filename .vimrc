@@ -16,6 +16,7 @@ runtime! archlinux.vim
 
 " do not load defaults if ~/.vimrc is missing
 "let skip_defaults_vim=1
+
 syntax enable
 
 colorscheme elflord
@@ -90,3 +91,6 @@ imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
   nmap <silent> <buffer> <leader>jN <Plug>(JavaComplete-Generate-ClassInFile)
 
   "end of javacomplete plugins
+  "
+"pdf live preview tex
+ let g:livepreview_previewer = 'zathura'

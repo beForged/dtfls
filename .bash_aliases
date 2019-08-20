@@ -40,3 +40,7 @@ if [ $UID -ne 0 ]; then
 fi
 
 alias diff="colordiff"
+
+alias ranger="source ranger"
+
+alias clint="streamlink https://twitch.tv/clintstevens 720p60 --player ffplay"
